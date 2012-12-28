@@ -1,0 +1,28 @@
+Robot
+		ID: FRC Bot_R0
+				Sensor
+						ID: Sparkfun Atomic IMU_S0
+						ID: PNI FieldForce TCM_S0
+						ID: Hokuyo URG Series_S0
+						ID: Garmin GPS Series_S0
+						ID: AXIS M1011_S0
+				Joint
+						ID: Joint_J0
+						ID: Joint_J1
+						ID: Joint_J2
+						ID: Joint_J3
+						ID: Joint
+						ID: Joint_J4
+						ID: Joint_J5
+						ID: Joint_J6
+						ID: Joint_J7
+				Actuator
+				Robot Component
+						ID: Body Frame
+						ID: Wheel 1
+						ID: Wheel 2
+						ID: Wheel 3
+						ID: Wheel 4
+
+
+Obstacle

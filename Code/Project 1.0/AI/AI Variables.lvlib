@@ -119,14 +119,13 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!")!A!1!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Robot Model.ctl" Type="VI" URL="../Robot Model.ctl"/>
+	<Item Name="Robot Model 1.ctl" Type="VI" URL="../Robot Model 1.ctl"/>
 	<Item Name="Robot Model" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!\.Q!!!")!A!1!!!!"!#6!&amp;A!#"EBV=WNF?1&gt;(97RB&gt;'6B!!!-5G^C&lt;X1A47^E:7Q[!!!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"03Q!!!")!A!1!!!!"!$F!&amp;A!%"5BV=WNZ"U&gt;B&lt;'&amp;U:7%*5WFN)%BV=WNZ#V.J&lt;3"(97RB&gt;'6B!!R3&lt;W*P&gt;#".&lt;W2F&lt;$I!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
