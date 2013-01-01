@@ -130,11 +130,14 @@
 				<Item Name="Husky Loop.vi" Type="VI" URL="../Motors/Husky/Husky Loop.vi"/>
 			</Item>
 			<Item Name="Roboteq" Type="Folder">
+				<Item Name="Roboteq Loop.vi" Type="VI" URL="../Motors/Roboteq/Roboteq Loop.vi"/>
 				<Item Name="Roboteq.lvlib" Type="Library" URL="../Motors/Roboteq/Roboteq.lvlib"/>
+			</Item>
+			<Item Name="Sim" Type="Folder">
+				<Item Name="Sim Motors.vi" Type="VI" URL="../Motors/Sim/Sim Motors.vi"/>
 			</Item>
 			<Item Name="Initialize Moxom Differential Steering.vi" Type="VI" URL="../Motors/Initialize Moxom Differential Steering.vi"/>
 			<Item Name="Motor Control Variables.lvlib" Type="Library" URL="../Motors/Motor Control Variables.lvlib"/>
-			<Item Name="Motor Loop.vi" Type="VI" URL="../Motors/Motor Loop.vi"/>
 			<Item Name="Telemetry.ctl" Type="VI" URL="../Motors/Telemetry.ctl"/>
 			<Item Name="Wheel States Segmentation.vi" Type="VI" URL="../Motors/Wheel States Segmentation.vi"/>
 		</Item>
@@ -179,6 +182,7 @@
 			<Item Name="XY- Graph As Chart.vi" Type="VI" URL="../Utilities/XY- Graph As Chart.vi"/>
 		</Item>
 		<Item Name="About Robot.vi" Type="VI" URL="../About Robot.vi"/>
+		<Item Name="Motor Loop.vi" Type="VI" URL="../Motors/Motor Loop.vi"/>
 		<Item Name="RHRT-IGVC-2013.vi" Type="VI" URL="../RHRT-IGVC-2013.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -227,7 +231,6 @@
 				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
 				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
 				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
-				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="Edge New.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge New.ctl"/>
 				<Item Name="Edge Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge Options.ctl"/>
 				<Item Name="Edge Polarity.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge Polarity.ctl"/>
@@ -326,6 +329,7 @@
 				<Item Name="NI_Robotics_Omnidirectional Wheel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Steering/Omnidirectional Wheel/NI_Robotics_Omnidirectional Wheel.lvclass"/>
 				<Item Name="NI_Robotics_Simulator.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Simulator/NI_Robotics_Simulator.lvlib"/>
 				<Item Name="NI_Robotics_Special Steering Frame.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Steering/Special Steering Frame/NI_Robotics_Special Steering Frame.lvclass"/>
+				<Item Name="NI_Robotics_Steering Class Types.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Steering/Class Type Definitions/NI_Robotics_Steering Class Types.lvlib"/>
 				<Item Name="NI_Robotics_Steering Frame.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Steering/Steering Frame/NI_Robotics_Steering Frame.lvclass"/>
 				<Item Name="NI_Robotics_Steering Wheel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Steering/Steering Wheel/NI_Robotics_Steering Wheel.lvclass"/>
 				<Item Name="NI_Robotics_Wheel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Steering/Wheel/NI_Robotics_Wheel.lvclass"/>
@@ -337,7 +341,6 @@
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Overlay Line with Arrows.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Clamp.llb/Overlay Line with Arrows.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
-				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Polar Plot.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/Polar Plot.vi"/>
 				<Item Name="Query Input Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Query Input Devices.vi"/>
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
@@ -393,7 +396,6 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
-			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
 			<Item Name="AngleWrapper.vi" Type="VI" URL="../AI/AngleWrapper.vi"/>
 			<Item Name="Auto Starter Kit.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/examples/robotics/Simulator/Traffic/Auto Driving/Auto Starter Kit.ctl"/>
 			<Item Name="Call Vector Field Histogram.vi" Type="VI" URL="../AI/Obstacle Avoidance/Vector Field Histogram/Call Vector Field Histogram.vi"/>
@@ -405,7 +407,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Histogram Avoidance.vi" Type="VI" URL="../AI/Obstacle Avoidance/Histogram Avoidance.vi"/>
+			<Item Name="Husky Loop.vi" Type="VI" URL="../Motors/Roboteq/Husky/Husky Loop.vi"/>
 			<Item Name="Image Paths.vi" Type="VI" URL="../Cameras/Image Paths.vi"/>
+			<Item Name="Initialize Moxom Differential Steering.vi" Type="VI" URL="../Motors/Roboteq/Initialize Moxom Differential Steering.vi"/>
 			<Item Name="Joystick Control Time Decay.vi" Type="VI" URL="../AI/Joystick Control Time Decay.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -432,6 +436,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
+			<Item Name="Robot Parameters.vi" Type="VI" URL="../Motors/Utilities/Robot Parameters/Robot Parameters.vi"/>
+			<Item Name="Start VI.vi" Type="VI" URL="../Motors/Utilities/Start VI.vi"/>
 			<Item Name="SubGoal Loop.vi" Type="VI" URL="../AI/SubGoal Loop.vi"/>
 			<Item Name="X Y to Angle.vi" Type="VI" URL="../AI/X Y to Angle.vi"/>
 		</Item>
