@@ -1,0 +1,32 @@
+Robot
+		ID: Husky Demo_R0
+				Sensor
+						ID: GPS_S0
+						ID: LIDAR_S0
+						ID: IMU_S0
+						ID: Compass_S0
+						ID: Camera_S0
+				Joint
+						ID: Front Right Joint
+						ID: Rear Right Joint
+						ID: Rear Left Joint
+						ID: Front Left Joint
+						ID: Joint_J0
+						ID: Joint_J1
+						ID: Joint_J2
+						ID: Joint_J3
+						ID: Joint_J4
+				Actuator
+						ID: Front Right Motor
+						ID: Rear Right Motor
+						ID: Rear Left Motor
+						ID: Front Left Motor
+				Robot Component
+						ID: ID4
+						ID: Front Left Wheel
+						ID: Rear Left Wheel
+						ID: Front Right Wheel
+						ID: Rear Right Wheel
+
+
+Obstacle

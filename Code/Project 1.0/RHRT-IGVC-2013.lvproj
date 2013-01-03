@@ -127,7 +127,6 @@
 			<Item Name="Husky" Type="Folder">
 				<Item Name="clearpath_interface.lvlib" Type="Library" URL="../Motors/Husky/clearpath_interface.lvlib"/>
 				<Item Name="cwrap_crio.dll" Type="Document" URL="../Motors/Husky/cwrap_crio.dll"/>
-				<Item Name="Husky Loop.vi" Type="VI" URL="../Motors/Husky/Husky Loop.vi"/>
 			</Item>
 			<Item Name="Roboteq" Type="Folder">
 				<Item Name="Roboteq Loop.vi" Type="VI" URL="../Motors/Roboteq/Roboteq Loop.vi"/>
@@ -162,6 +161,31 @@
 			<Item Name="Remotes Variables.lvlib" Type="Library" URL="../Remotes/Remotes Variables.lvlib"/>
 		</Item>
 		<Item Name="Simulation" Type="Folder">
+			<Item Name="Husky Demo" Type="Folder">
+				<Item Name="Husky Demo SimulationRSC" Type="Folder">
+					<Item Name="ive" Type="Folder">
+						<Item Name="AXIS M1011.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/AXIS M1011.ive"/>
+						<Item Name="Garmin GPS Series.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/Garmin GPS Series.ive"/>
+						<Item Name="Hokuyo URG Series.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/Hokuyo URG Series.ive"/>
+						<Item Name="ID4.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/ID4.ive"/>
+						<Item Name="ID36.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/ID36.ive"/>
+						<Item Name="ID58.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/ID58.ive"/>
+						<Item Name="ID59.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/ID59.ive"/>
+						<Item Name="ID79.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/ID79.ive"/>
+						<Item Name="Map 2 Orange Red Blue Sawhourse Full 2.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/Map 2 Orange Red Blue Sawhourse Full 2.ive"/>
+						<Item Name="PNI FieldForce TCM.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/PNI FieldForce TCM.ive"/>
+						<Item Name="Sparkfun Atomic IMU.ive" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/ive/Sparkfun Atomic IMU.ive"/>
+					</Item>
+					<Item Name="stl" Type="Folder">
+						<Item Name="Map 2 Orange Red Blue Sawhourse Full 2.stl" Type="Document" URL="../Simulation/Husky Demo/Husky Demo SimulationRSC/stl/Map 2 Orange Red Blue Sawhourse Full 2.stl"/>
+					</Item>
+				</Item>
+				<Item Name="Husky Demo Simulation ID List.txt" Type="Document" URL="../Simulation/Husky Demo/Husky Demo Simulation ID List.txt"/>
+				<Item Name="Husky Demo Simulation.vi" Type="VI" URL="../Simulation/Husky Demo/Husky Demo Simulation.vi"/>
+				<Item Name="Husky Demo Simulation.xml" Type="Document" URL="../Simulation/Husky Demo/Husky Demo Simulation.xml"/>
+				<Item Name="Husky Demo.aliases" Type="Document" URL="../Simulation/Husky Demo/Husky Demo.aliases"/>
+				<Item Name="Husky Demo.lvproj" Type="Document" URL="../Simulation/Husky Demo/Husky Demo.lvproj"/>
+			</Item>
 			<Item Name="Initialize.vi" Type="VI" URL="../Simulation/Initialize.vi"/>
 			<Item Name="Simulation.lvlib" Type="Library" URL="../Simulation/Simulation.lvlib"/>
 			<Item Name="Uninitialise.vi" Type="VI" URL="../Simulation/Uninitialise.vi"/>
@@ -231,6 +255,7 @@
 				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
 				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
 				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
+				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="Edge New.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge New.ctl"/>
 				<Item Name="Edge Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge Options.ctl"/>
 				<Item Name="Edge Polarity.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge Polarity.ctl"/>
@@ -341,6 +366,7 @@
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Overlay Line with Arrows.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Clamp.llb/Overlay Line with Arrows.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Polar Plot.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/Polar Plot.vi"/>
 				<Item Name="Query Input Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Query Input Devices.vi"/>
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
@@ -396,6 +422,7 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
+			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
 			<Item Name="AngleWrapper.vi" Type="VI" URL="../AI/AngleWrapper.vi"/>
 			<Item Name="Auto Starter Kit.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/examples/robotics/Simulator/Traffic/Auto Driving/Auto Starter Kit.ctl"/>
 			<Item Name="Call Vector Field Histogram.vi" Type="VI" URL="../AI/Obstacle Avoidance/Vector Field Histogram/Call Vector Field Histogram.vi"/>
@@ -407,9 +434,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Histogram Avoidance.vi" Type="VI" URL="../AI/Obstacle Avoidance/Histogram Avoidance.vi"/>
-			<Item Name="Husky Loop.vi" Type="VI" URL="../Motors/Roboteq/Husky/Husky Loop.vi"/>
+			<Item Name="Husky Loop.vi" Type="VI" URL="../Motors/Husky/Husky Loop.vi"/>
 			<Item Name="Image Paths.vi" Type="VI" URL="../Cameras/Image Paths.vi"/>
-			<Item Name="Initialize Moxom Differential Steering.vi" Type="VI" URL="../Motors/Roboteq/Initialize Moxom Differential Steering.vi"/>
 			<Item Name="Joystick Control Time Decay.vi" Type="VI" URL="../AI/Joystick Control Time Decay.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -436,8 +462,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
-			<Item Name="Robot Parameters.vi" Type="VI" URL="../Motors/Utilities/Robot Parameters/Robot Parameters.vi"/>
-			<Item Name="Start VI.vi" Type="VI" URL="../Motors/Utilities/Start VI.vi"/>
 			<Item Name="SubGoal Loop.vi" Type="VI" URL="../AI/SubGoal Loop.vi"/>
 			<Item Name="X Y to Angle.vi" Type="VI" URL="../AI/X Y to Angle.vi"/>
 		</Item>

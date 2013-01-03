@@ -13,6 +13,7 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"%1!!!!")!A!1!!!!#!""!-0````]'5X2S;7ZH!!!=1%!!!@````]!!!^"=H*B?3"P:C"4&gt;(*J&lt;G=!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#WMA!!!")!A!1!!!!)!!Z!-0````]&amp;5G^C&lt;X1!#!!Q`````Q!51%!!!@````]!!1&gt;4:7ZT&lt;X*T!"2!1!!"`````Q!""EJP;7ZU=Q!!&amp;E"!!!(`````!!%*17.U&gt;7&amp;U&lt;X*T!"Z!1!!"`````Q!"%&amp;*P9G^U)%.P&lt;8"P&lt;G6O&gt;(-!!"B!5!!&amp;!!!!!A!$!!1!"1:4;7UA351!!"2!1!!"`````Q!'"F.J&lt;3"*2!!!!1!(!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Sim ID.ctl" Type="VI" URL="../Sim ID.ctl"/>
 </Library>

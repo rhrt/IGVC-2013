@@ -126,6 +126,6 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"03Q!!!")!A!1!!!!"!$F!&amp;A!%"5BV=WNZ"U&gt;B&lt;'&amp;U:7%*5WFN)%BV=WNZ#V.J&lt;3"(97RB&gt;'6B!!R3&lt;W*P&gt;#".&lt;W2F&lt;$I!!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!")!A!1!!!!"!!V!"A!'65FO&gt;$%W!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
