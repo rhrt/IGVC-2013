@@ -206,8 +206,10 @@
 			<Item Name="XY- Graph As Chart.vi" Type="VI" URL="../Utilities/XY- Graph As Chart.vi"/>
 		</Item>
 		<Item Name="About Robot.vi" Type="VI" URL="../About Robot.vi"/>
+		<Item Name="Close VI Server Application Control Event.vi" Type="VI" URL="../Utilities/Close VI Server Application Control Event.vi"/>
 		<Item Name="Motor Loop.vi" Type="VI" URL="../Motors/Motor Loop.vi"/>
 		<Item Name="RHRT-IGVC-2013.vi" Type="VI" URL="../RHRT-IGVC-2013.vi"/>
+		<Item Name="Stopt VI Event.vi" Type="VI" URL="../Utilities/Stopt VI Event.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="DC Motor Controller.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/DC Motor Controller/HAIOL/DC Motor Controller.lvclass"/>
@@ -397,6 +399,7 @@
 				<Item Name="SIM PID Integral Gain.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Model Libraries/PID/subVIs/SIM PID Integral Gain.vi"/>
 				<Item Name="SIM PID.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Model Libraries/PID/SIM PID.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Stop Timed Structure.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/Stop Timed Structure.vi"/>
 				<Item Name="Straight Edge Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Straight Edge Options.ctl"/>
 				<Item Name="Straight Edge Process.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Straight Edge Process.ctl"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
@@ -438,6 +441,9 @@
 			<Item Name="Image Paths.vi" Type="VI" URL="../Cameras/Image Paths.vi"/>
 			<Item Name="Joystick Control Time Decay.vi" Type="VI" URL="../AI/Joystick Control Time Decay.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
