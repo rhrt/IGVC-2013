@@ -428,20 +428,15 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
-			<Item Name="AngleWrapper.vi" Type="VI" URL="../AI/AngleWrapper.vi"/>
+			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
 			<Item Name="Auto Starter Kit.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/examples/robotics/Simulator/Traffic/Auto Driving/Auto Starter Kit.ctl"/>
-			<Item Name="Call Vector Field Histogram.vi" Type="VI" URL="../AI/Obstacle Avoidance/Vector Field Histogram/Call Vector Field Histogram.vi"/>
-			<Item Name="Convert Lines To Polar.vi" Type="VI" URL="../AI/Convert Lines To Polar.vi"/>
 			<Item Name="cwrap_cRIO.dll" Type="Document" URL="cwrap_cRIO.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="hid.dll" Type="Document" URL="hid.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Histogram Avoidance.vi" Type="VI" URL="../AI/Obstacle Avoidance/Histogram Avoidance.vi"/>
 			<Item Name="Husky Loop.vi" Type="VI" URL="../Motors/Husky/Husky Loop.vi"/>
-			<Item Name="Image Paths.vi" Type="VI" URL="../Cameras/Image Paths.vi"/>
-			<Item Name="Joystick Control Time Decay.vi" Type="VI" URL="../AI/Joystick Control Time Decay.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -463,13 +458,10 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Occupancy Grid.vi" Type="VI" URL="../AI/Obstacle Avoidance/Occupancy Grid.vi"/>
 			<Item Name="ode_single.dll" Type="Document" URL="ode_single.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
-			<Item Name="SubGoal Loop.vi" Type="VI" URL="../AI/SubGoal Loop.vi"/>
-			<Item Name="X Y to Angle.vi" Type="VI" URL="../AI/X Y to Angle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
