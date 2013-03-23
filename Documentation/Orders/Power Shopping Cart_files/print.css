@@ -1,0 +1,2 @@
+﻿/* print.css */
+#top,#mainnav,.hdr_btm,#header,#btm_nav,.main_btm_border,.footer,#paging,.print_hide{display:none;}#main_container{float:none;margin:auto;width:auto;border-top-width:0;}.main_bg{float:none;background-image:none;width:auto;}.main_cntr{float:none;}#prod_cntr{float:none;}.prod_row{float:none;}#print_hdr{display:block;}
