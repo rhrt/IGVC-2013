@@ -26,7 +26,7 @@
 		<Item Name="Read Encoder Speed RPM.vi" Type="VI" URL="../Public/Read Encoder Speed RPM.vi"/>
 		<Item Name="Set Control Effort.vi" Type="VI" URL="../Public/Set Control Effort.vi"/>
 		<Item Name="Set RPM.vi" Type="VI" URL="../Public/Set RPM.vi"/>
-		<Item Name="Setpoint.vi" Type="VI" URL="../Public/Setpoint.vi"/>
 	</Item>
+	<Item Name="Setpoint.vi" Type="VI" URL="../Public/Setpoint.vi"/>
 	<Item Name="Write Digital Out.vi" Type="VI" URL="../Public/Write Digital Out.vi"/>
 </Library>
