@@ -19,7 +19,7 @@
 	</Item>
 	<Item Name="Data" Type="Folder">
 		<Item Name="clearpath_parse_differential_control.vi" Type="VI" URL="../data/clearpath_parse_differential_control.vi"/>
-		<Item Name="clearpath_parse_differential_output.vi" Type="VI" URL="../../../../../../../IGVC/Clearpath/Husky 2011/Teleop Robotics Project Folder/Husky/vi/data/clearpath_parse_differential_output.vi"/>
+		<Item Name="clearpath_parse_differential_output.vi" Type="VI" URL="../data/clearpath_parse_differential_output.vi"/>
 		<Item Name="clearpath_parse_differential_speed.vi" Type="VI" URL="../data/clearpath_parse_differential_speed.vi"/>
 		<Item Name="clearpath_parse_encoder.vi" Type="VI" URL="../data/clearpath_parse_encoder.vi"/>
 		<Item Name="clearpath_parse_firmware_info.vi" Type="VI" URL="../data/clearpath_parse_firmware_info.vi"/>
