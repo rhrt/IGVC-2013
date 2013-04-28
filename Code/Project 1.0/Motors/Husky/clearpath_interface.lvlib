@@ -6,43 +6,43 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Commands" Type="Folder">
-		<Item Name="clearpath_set_differential_controls.vi" Type="VI" URL="../cmds/clearpath_set_differential_controls.vi"/>
-		<Item Name="clearpath_set_differential_output.vi" Type="VI" URL="../cmds/clearpath_set_differential_output.vi"/>
-		<Item Name="clearpath_set_differential_speeds.vi" Type="VI" URL="../cmds/clearpath_set_differential_speeds.vi"/>
-		<Item Name="clearpath_set_max_accel.vi" Type="VI" URL="../cmds/clearpath_set_max_accel.vi"/>
-		<Item Name="clearpath_set_max_speed.vi" Type="VI" URL="../cmds/clearpath_set_max_speed.vi"/>
-		<Item Name="clearpath_set_platform_name.vi" Type="VI" URL="../cmds/clearpath_set_platform_name.vi"/>
-		<Item Name="clearpath_set_platform_time.vi" Type="VI" URL="../cmds/clearpath_set_platform_time.vi"/>
+		<Item Name="clearpath_set_differential_controls.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_differential_controls.vi"/>
+		<Item Name="clearpath_set_differential_output.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_differential_output.vi"/>
+		<Item Name="clearpath_set_differential_speeds.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_differential_speeds.vi"/>
+		<Item Name="clearpath_set_max_accel.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_max_accel.vi"/>
+		<Item Name="clearpath_set_max_speed.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_max_speed.vi"/>
+		<Item Name="clearpath_set_platform_name.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_platform_name.vi"/>
+		<Item Name="clearpath_set_platform_time.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_platform_time.vi"/>
 		<Item Name="clearpath_set_reset.vi" Type="VI" URL="../cmds/clearpath_set_reset.vi"/>
-		<Item Name="clearpath_set_safety_system.vi" Type="VI" URL="../cmds/clearpath_set_safety_system.vi"/>
-		<Item Name="clearpath_set_velocity.vi" Type="VI" URL="../cmds/clearpath_set_velocity.vi"/>
+		<Item Name="clearpath_set_safety_system.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_safety_system.vi"/>
+		<Item Name="clearpath_set_velocity.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_velocity.vi"/>
 	</Item>
 	<Item Name="Data" Type="Folder">
-		<Item Name="clearpath_parse_differential_control.vi" Type="VI" URL="../data/clearpath_parse_differential_control.vi"/>
+		<Item Name="clearpath_parse_differential_control.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/data/clearpath_parse_differential_control.vi"/>
 		<Item Name="clearpath_parse_differential_output.vi" Type="VI" URL="../data/clearpath_parse_differential_output.vi"/>
 		<Item Name="clearpath_parse_differential_speed.vi" Type="VI" URL="../data/clearpath_parse_differential_speed.vi"/>
-		<Item Name="clearpath_parse_encoder.vi" Type="VI" URL="../data/clearpath_parse_encoder.vi"/>
+		<Item Name="clearpath_parse_encoder.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/data/clearpath_parse_encoder.vi"/>
 		<Item Name="clearpath_parse_firmware_info.vi" Type="VI" URL="../data/clearpath_parse_firmware_info.vi"/>
 		<Item Name="clearpath_parse_max_accel.vi" Type="VI" URL="../data/clearpath_parse_max_accel.vi"/>
 		<Item Name="clearpath_parse_max_speed.vi" Type="VI" URL="../data/clearpath_parse_max_speed.vi"/>
 		<Item Name="clearpath_parse_platform_info.vi" Type="VI" URL="../data/clearpath_parse_platform_info.vi"/>
 		<Item Name="clearpath_parse_platform_name.vi" Type="VI" URL="../data/clearpath_parse_platform_name.vi"/>
-		<Item Name="clearpath_parse_power_status.vi" Type="VI" URL="../data/clearpath_parse_power_status.vi"/>
+		<Item Name="clearpath_parse_power_status.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/data/clearpath_parse_power_status.vi"/>
 		<Item Name="clearpath_parse_raw_encoder.vi" Type="VI" URL="../data/clearpath_parse_raw_encoder.vi"/>
-		<Item Name="clearpath_parse_safety_status.vi" Type="VI" URL="../data/clearpath_parse_safety_status.vi"/>
-		<Item Name="clearpath_parse_system_status.vi" Type="VI" URL="../data/clearpath_parse_system_status.vi"/>
+		<Item Name="clearpath_parse_safety_status.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/data/clearpath_parse_safety_status.vi"/>
+		<Item Name="clearpath_parse_system_status.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/data/clearpath_parse_system_status.vi"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="clearpath_check_send.vi" Type="VI" URL="../util/clearpath_check_send.vi"/>
-		<Item Name="clearpath_manage_incoming.vi" Type="VI" URL="../util/clearpath_manage_incoming.vi"/>
-		<Item Name="clearpath_message_parser.vi" Type="VI" URL="../util/clearpath_message_parser.vi"/>
-		<Item Name="clearpath_read_serial.vi" Type="VI" URL="../util/clearpath_read_serial.vi"/>
-		<Item Name="clearpath_write_serial.vi" Type="VI" URL="../util/clearpath_write_serial.vi"/>
+		<Item Name="clearpath_manage_incoming.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/util/clearpath_manage_incoming.vi"/>
+		<Item Name="clearpath_message_parser.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/util/clearpath_message_parser.vi"/>
+		<Item Name="clearpath_read_serial.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/util/clearpath_read_serial.vi"/>
+		<Item Name="clearpath_write_serial.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/util/clearpath_write_serial.vi"/>
 	</Item>
-	<Item Name="clearpath_close.vi" Type="VI" URL="../clearpath_close.vi"/>
+	<Item Name="clearpath_close.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/clearpath_close.vi"/>
 	<Item Name="clearpath_comm.ctl" Type="VI" URL="../clearpath_comm.ctl"/>
-	<Item Name="clearpath_enqueue_xmitqueue.vi" Type="VI" URL="../util/clearpath_enqueue_xmitqueue.vi"/>
-	<Item Name="clearpath_initialize.vi" Type="VI" URL="../clearpath_initialize.vi"/>
-	<Item Name="clearpath_process.vi" Type="VI" URL="../clearpath_process.vi"/>
-	<Item Name="clearpath_subscribe.vi" Type="VI" URL="../clearpath_subscribe.vi"/>
+	<Item Name="clearpath_enqueue_xmitqueue.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/util/clearpath_enqueue_xmitqueue.vi"/>
+	<Item Name="clearpath_initialize.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/clearpath_initialize.vi"/>
+	<Item Name="clearpath_process.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/clearpath_process.vi"/>
+	<Item Name="clearpath_subscribe.vi" Type="VI" URL="../../../../../../../GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/clearpath_subscribe.vi"/>
 </Library>
