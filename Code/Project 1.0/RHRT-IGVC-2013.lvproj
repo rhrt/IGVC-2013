@@ -127,6 +127,7 @@
 			<Item Name="Husky" Type="Folder">
 				<Item Name="clearpath_interface.lvlib" Type="Library" URL="../Motors/Husky/clearpath_interface.lvlib"/>
 				<Item Name="cwrap_crio.dll" Type="Document" URL="../Motors/Husky/cwrap_crio.dll"/>
+				<Item Name="Husky Loop.vi" Type="VI" URL="../Motors/Husky/Husky Loop.vi"/>
 			</Item>
 			<Item Name="Roboteq" Type="Folder">
 				<Item Name="Roboteq Loop.vi" Type="VI" URL="../Motors/Roboteq/Roboteq Loop.vi"/>
@@ -418,13 +419,9 @@
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 			<Item Name="Auto Starter Kit.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/examples/robotics/Simulator/Traffic/Auto Driving/Auto Starter Kit.ctl"/>
-			<Item Name="cwrap_cRIO.dll" Type="Document" URL="cwrap_cRIO.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="hid.dll" Type="Document" URL="hid.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Husky Loop.vi" Type="VI" URL="../Motors/Husky/Husky Loop.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
