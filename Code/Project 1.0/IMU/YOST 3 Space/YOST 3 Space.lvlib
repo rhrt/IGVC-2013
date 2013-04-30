@@ -4,6 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Private" Type="Folder">
+		<Item Name="Append Carriage Return Character.vi" Type="VI" URL="../YOST 3 Space Lib/Private/Append Carriage Return Character.vi"/>
+		<Item Name="Error Handler.vi" Type="VI" URL="../YOST 3 Space Lib/Private/Error Handler.vi"/>
+		<Item Name="Process IMU Status.vi" Type="VI" URL="../YOST 3 Space Lib/Private/Process IMU Status.vi"/>
+	</Item>
 	<Item Name="Close.vi" Type="VI" URL="../YOST 3 Space Lib/Close.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../YOST 3 Space Lib/Initialize.vi"/>
 	<Item Name="Query Euler Angle.vi" Type="VI" URL="../YOST 3 Space Lib/Query Euler Angle.vi"/>
