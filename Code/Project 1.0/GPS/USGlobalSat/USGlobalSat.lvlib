@@ -9,5 +9,6 @@
 		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="Read Position.vi" Type="VI" URL="../Public/Read Position.vi"/>
+		<Item Name="Retrieve Token String.vi" Type="VI" URL="../Public/Retrieve Token String.vi"/>
 	</Item>
 </Library>
