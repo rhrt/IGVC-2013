@@ -12,4 +12,10 @@
 	<Item Name="Close.vi" Type="VI" URL="../YOST 3 Space Lib/Close.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../YOST 3 Space Lib/Initialize.vi"/>
 	<Item Name="Query Euler Angle.vi" Type="VI" URL="../YOST 3 Space Lib/Query Euler Angle.vi"/>
+	<Item Name="Query LED Color.vi" Type="VI" URL="../YOST 3 Space Lib/Query LED Color.vi"/>
+	<Item Name="Query Tared Euler Angles.vi" Type="VI" URL="../YOST 3 Space Lib/Query Tared Euler Angles.vi"/>
+	<Item Name="Read LED Mode.vi" Type="VI" URL="../YOST 3 Space Lib/Read LED Mode.vi"/>
+	<Item Name="Set LED Color.vi" Type="VI" URL="../YOST 3 Space Lib/Set LED Color.vi"/>
+	<Item Name="Set LED Mode.vi" Type="VI" URL="../YOST 3 Space Lib/Set LED Mode.vi"/>
+	<Item Name="Tare IMU.vi" Type="VI" URL="../YOST 3 Space Lib/Tare IMU.vi"/>
 </Library>
