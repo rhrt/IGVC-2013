@@ -29,4 +29,5 @@
 	</Item>
 	<Item Name="Setpoint.vi" Type="VI" URL="../Public/Setpoint.vi"/>
 	<Item Name="Write Digital Out.vi" Type="VI" URL="../Public/Write Digital Out.vi"/>
+	<Item Name="Read Absolute Brushless Counter.vi" Type="VI" URL="../Public/Read Absolute Brushless Counter.vi"/>
 </Library>

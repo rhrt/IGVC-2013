@@ -262,14 +262,12 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
 				<Item Name="Draw Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Point.vi"/>
 				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
 				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
-				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="Edge New.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge New.ctl"/>
 				<Item Name="Edge Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge Options.ctl"/>
 				<Item Name="Edge Polarity.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge Polarity.ctl"/>
@@ -286,7 +284,6 @@
 				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
 				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
@@ -385,7 +382,6 @@
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Overlay Line with Arrows.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Clamp.llb/Overlay Line with Arrows.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
-				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="Polar Plot.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/Polar Plot.vi"/>
 				<Item Name="Query Input Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Query Input Devices.vi"/>
@@ -405,7 +401,6 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Search Line.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Search Line.ctl"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="ShapeDetectionMatchOptions.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Shape Detection.llb/ShapeDetectionMatchOptions.ctl"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -436,8 +431,24 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
-			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
 			<Item Name="Auto Starter Kit.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/examples/robotics/Simulator/Traffic/Auto Driving/Auto Starter Kit.ctl"/>
+			<Item Name="clearpath_close.vi" Type="VI" URL="../Motors/Husky/Clearpath/Husky 2011/Teleop Robotics Project Folder/Husky/vi/clearpath_close.vi"/>
+			<Item Name="clearpath_initialize.vi" Type="VI" URL="../Motors/Husky/Clearpath/Husky 2011/Teleop Robotics Project Folder/Husky/vi/clearpath_initialize.vi"/>
+			<Item Name="clearpath_parse_differential_output.vi" Type="VI" URL="../Motors/Husky/Clearpath/Husky 2011/Teleop Robotics Project Folder/Husky/vi/data/clearpath_parse_differential_output.vi"/>
+			<Item Name="clearpath_parse_encoder.vi" Type="VI" URL="../Motors/GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/data/clearpath_parse_encoder.vi"/>
+			<Item Name="clearpath_parse_power_status.vi" Type="VI" URL="../Motors/Husky/Clearpath/Husky 2011/Teleop Robotics Project Folder/Husky/vi/data/clearpath_parse_power_status.vi"/>
+			<Item Name="clearpath_parse_system_status.vi" Type="VI" URL="../Motors/Husky/Clearpath/Husky 2011/Teleop Robotics Project Folder/Husky/vi/data/clearpath_parse_system_status.vi"/>
+			<Item Name="clearpath_process.vi" Type="VI" URL="../Motors/Husky/Clearpath/Husky 2011/Teleop Robotics Project Folder/Husky/vi/clearpath_process.vi"/>
+			<Item Name="clearpath_set_differential_controls.vi" Type="VI" URL="../Motors/GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_differential_controls.vi"/>
+			<Item Name="clearpath_set_differential_output.vi" Type="VI" URL="../Motors/GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_differential_output.vi"/>
+			<Item Name="clearpath_set_differential_speeds.vi" Type="VI" URL="../Motors/GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_differential_speeds.vi"/>
+			<Item Name="clearpath_set_max_accel.vi" Type="VI" URL="../Motors/GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_max_accel.vi"/>
+			<Item Name="clearpath_set_max_speed.vi" Type="VI" URL="../Motors/GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_max_speed.vi"/>
+			<Item Name="clearpath_set_platform_name.vi" Type="VI" URL="../Motors/GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_platform_name.vi"/>
+			<Item Name="clearpath_set_platform_time.vi" Type="VI" URL="../Motors/GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_platform_time.vi"/>
+			<Item Name="clearpath_set_safety_system.vi" Type="VI" URL="../Motors/GitHub/IGVC-2013/Code/Project 1.0/Motors/Husky/cmds/clearpath_set_safety_system.vi"/>
+			<Item Name="clearpath_set_velocity.vi" Type="VI" URL="../Motors/Husky/Clearpath/Husky 2011/Teleop Robotics Project Folder/Husky/vi/cmds/clearpath_set_velocity.vi"/>
+			<Item Name="clearpath_subscribe.vi" Type="VI" URL="../Motors/Husky/Clearpath/Husky 2011/Teleop Robotics Project Folder/Husky/vi/clearpath_subscribe.vi"/>
 			<Item Name="hid.dll" Type="Document" URL="hid.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
