@@ -9,6 +9,7 @@
 	<Property Name="varPersistentID:{22960A16-D1BA-4459-BB9E-5D1DBE1E787E}" Type="Ref">/My Computer/GPS/GPS Variables.lvlib/GPS VISA</Property>
 	<Property Name="varPersistentID:{22D9FB6A-1165-44B3-8F85-41243AC6825C}" Type="Ref">/My Computer/AI/AI Variables.lvlib/SubPath</Property>
 	<Property Name="varPersistentID:{2DB4E6F6-6654-45D3-B2E8-574B8C789BB5}" Type="Ref">/My Computer/AI/AI Variables.lvlib/SubGoal</Property>
+	<Property Name="varPersistentID:{314FA59C-50D5-498C-9F54-FF2F16A8824F}" Type="Ref">/My Computer/AI/AI Variables.lvlib/Waypoint Array</Property>
 	<Property Name="varPersistentID:{465052EC-0503-43D4-8DBC-345D35041337}" Type="Ref">/My Computer/Remotes/Remotes Variables.lvlib/Analog Stick</Property>
 	<Property Name="varPersistentID:{47B9A7D5-C018-47EC-A266-6E79688BFDD4}" Type="Ref">/My Computer/Motors/Motor Control Variables.lvlib/Odometry Update Signal</Property>
 	<Property Name="varPersistentID:{4B49FC9B-C43A-4E17-9F71-2B98CDB01622}" Type="Ref">/My Computer/IMU/IMU Variables.lvlib/IMU Data</Property>
@@ -453,6 +454,7 @@
 			</Item>
 			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
 			<Item Name="Auto Starter Kit.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/examples/robotics/Simulator/Traffic/Auto Driving/Auto Starter Kit.ctl"/>
+			<Item Name="Delta_heading_wrapper.vi" Type="VI" URL="../AI/Waypoint AI/Delta_heading_wrapper.vi"/>
 			<Item Name="Display _Struct.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Plug In/_Struct/display/Display _Struct.vi"/>
 			<Item Name="Display_StructField_Data.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Plug In/_Struct/display/Display_StructField_Data.vi"/>
 			<Item Name="error.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Functions/Error Handling/error.ctl"/>

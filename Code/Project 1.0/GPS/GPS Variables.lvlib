@@ -12,6 +12,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+UM!)!!")!A!1!!!!&lt;!!^!#A!)4'&amp;U;82V:'5!!!^!#A!*4'^O:WFU&gt;72F!!^!#A!)17RU;82V:'5!!"6!#A!/6G6M&lt;W.J&gt;(EA4G^S&gt;'A!!".!#A!.6G6M&lt;W.J&gt;(EA27&amp;T&gt;!!21!I!#V:F&lt;'^D;82Z)&amp;6Q!"F!#A!327RM;8"T&lt;WFE97QA3'6J:WBU!!!,1!E!"%&gt;%4V!!!!N!#1!%5%205!!!#U!*!!2)2%^1!!!,1!E!"&amp;:%4V!!!!N!#1!%6%205!!!)5!&amp;!"J)&lt;X*J?G^O&gt;'&amp;M)%:J:X6S:3"P:C".:8*J&gt;!!!'U!&amp;!"25;7VF)%:J:X6S:3"P:C".:8*J&gt;!!!%U!*!!R.98AA:%&gt;15S"":W5!!"^!"1!928BU:7ZE:71A4G&amp;W;7&gt;B&gt;'FP&lt;C".&lt;W2F!!!B1!I!'E&amp;O&gt;'6O&lt;G%A3'6J:WBU)%&amp;E;H6T&gt;'VF&lt;H1A!!!01!-!#6.&amp;6#"/&lt;X*U;!!01!-!#&amp;.&amp;6#"&amp;98.U!!!.1!-!"F.&amp;6#"6=!!!2%"1!"%!!Q!%!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$Q!1!"%!%A!4'F:F&lt;'^D;82Z,#"$&lt;X*S:7.U;7^O)#9A5U65!!!01!9!#%&gt;15S"8:76L!!!81!E!%%&gt;15S"5;7VF)'^G)&amp;&gt;F:7M!!""!5!!#!"5!&amp;A25;7VF!!!.1!-!"UZV&lt;76S;7-!(%"!!!(`````!"A05W&amp;U:7RM;82F=S"6=W6E!"R!5!!'!!!!!1!#!"1!&amp;Q!:#%&gt;15S"%982B!!!"!"I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="GPS Data Array.ctl" Type="VI" URL="../GPS Data Array.ctl"/>
 	<Item Name="GPS Data.ctl" Type="VI" URL="../GPS Data.ctl"/>
 	<Item Name="GPS Error" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
