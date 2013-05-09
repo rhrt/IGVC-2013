@@ -129,4 +129,5 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!")!A!1!!!!"!!V!"A!'65FO&gt;$%W!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Robot State 1.ctl" Type="VI" URL="../Robot State 1.ctl"/>
 </Library>
