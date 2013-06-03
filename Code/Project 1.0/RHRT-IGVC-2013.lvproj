@@ -24,12 +24,15 @@
 	<Property Name="varPersistentID:{6FCEE5D0-7B11-423F-8F3F-951A14D989C2}" Type="Ref">/My Computer/AI/AI Variables.lvlib/Histogram</Property>
 	<Property Name="varPersistentID:{7C0FF74E-750F-4C73-BA0C-9B1D82310D5A}" Type="Ref">/My Computer/LIDAR/LIDAR Variables.lvlib/LIDAR Data</Property>
 	<Property Name="varPersistentID:{7D570F67-3B4E-4A64-97BF-718FB83C9EA5}" Type="Ref">/My Computer/Simulation/Simulation.lvlib/Sim ID</Property>
+	<Property Name="varPersistentID:{8523BDD1-D604-4958-969E-9B0FAF7213C8}" Type="Ref">/My Computer/AI/AI Variables.lvlib/SubPath Ort</Property>
 	<Property Name="varPersistentID:{882BF638-BAF4-4010-B66C-D61838ABE528}" Type="Ref">/My Computer/Motors/Motor Control Variables.lvlib/Body Velocities</Property>
+	<Property Name="varPersistentID:{8E08E72A-CD23-47DD-893E-DBD57C6BB810}" Type="Ref">/My Computer/AI/AI Variables.lvlib/SubGoal Distance</Property>
 	<Property Name="varPersistentID:{987C5715-59BE-4E97-BB14-31D2F1529D59}" Type="Ref">/My Computer/AI/AI Variables.lvlib/Occupancy Grid</Property>
 	<Property Name="varPersistentID:{9975105F-AF82-415B-973F-6F9B60ED874C}" Type="Ref">/My Computer/GPS/GPS Variables.lvlib/GPS Data</Property>
-	<Property Name="varPersistentID:{9A7C97BF-D79C-40C5-953D-CB6C2DD62545}" Type="Ref">/My Computer/AI/AI Variables.lvlib/Target Distance</Property>
+	<Property Name="varPersistentID:{9A7C97BF-D79C-40C5-953D-CB6C2DD62545}" Type="Ref">/My Computer/AI/AI Variables.lvlib/SubPath Distance</Property>
 	<Property Name="varPersistentID:{9DCE0DF8-F518-4AA4-AA76-F82F3F4CF766}" Type="Ref">/My Computer/AI/AI Variables.lvlib/Waypoint Table</Property>
 	<Property Name="varPersistentID:{A1A654F9-323F-4F4A-B030-B5D76FFBCEF2}" Type="Ref">/My Computer/Cameras/Image Variables.lvlib/Preview</Property>
+	<Property Name="varPersistentID:{A51ABB3D-77B9-46BD-AE97-0AC56BBF1460}" Type="Ref">/My Computer/IMU/IMU Variables.lvlib/IMU Data Old</Property>
 	<Property Name="varPersistentID:{A9EFD86A-9B87-42F2-8399-32A2D1547B4E}" Type="Ref">/My Computer/AI/AI Variables.lvlib/Robot Mode</Property>
 	<Property Name="varPersistentID:{AB082CED-3B21-4D00-9921-442B54907586}" Type="Ref">/My Computer/Motors/Motor Control Variables.lvlib/Odometry Data</Property>
 	<Property Name="varPersistentID:{ABFF84A5-14E4-45E8-AFCD-26A0929CB06D}" Type="Ref">/My Computer/IMU/IMU Variables.lvlib/IMU Error</Property>
@@ -37,7 +40,7 @@
 	<Property Name="varPersistentID:{B3163E58-458A-48F4-9B0B-1263FBBA8387}" Type="Ref">/My Computer/Cameras/Image Variables.lvlib/Line Data</Property>
 	<Property Name="varPersistentID:{B3D19C47-D258-48AC-B11B-809312359597}" Type="Ref">/My Computer/Remotes/Remotes Variables.lvlib/Joystick_C</Property>
 	<Property Name="varPersistentID:{BD59D958-FE31-46A3-BE1D-F320DE18528E}" Type="Ref">/My Computer/LIDAR/LIDAR Variables.lvlib/LIDAR Error</Property>
-	<Property Name="varPersistentID:{C10CFC0C-4FF9-4D3C-B7BC-51BF6597A52E}" Type="Ref">/My Computer/AI/AI Variables.lvlib/SubGoalOrt</Property>
+	<Property Name="varPersistentID:{C10CFC0C-4FF9-4D3C-B7BC-51BF6597A52E}" Type="Ref">/My Computer/AI/AI Variables.lvlib/SubGoal Ort</Property>
 	<Property Name="varPersistentID:{C1EF20E5-8E3B-4E04-9024-08D50ABFD253}" Type="Ref">/My Computer/Motors/Motor Control Variables.lvlib/Wheel Angles</Property>
 	<Property Name="varPersistentID:{D30646BF-7DFD-4576-917C-CB6A136102E4}" Type="Ref">/My Computer/GPS/GPS Variables.lvlib/GPS Error</Property>
 	<Property Name="varPersistentID:{D996A062-2851-4FA2-8661-DA7050B3919D}" Type="Ref">/My Computer/Motors/Motor Control Variables.lvlib/Odometry Update Data</Property>
@@ -69,6 +72,19 @@
 			<Item Name="Histogram" Type="Folder">
 				<Item Name="Call Vector Field Histogram.vi" Type="VI" URL="../AI/Histogram/Call Vector Field Histogram.vi"/>
 				<Item Name="VFH Speed Selection.vi" Type="VI" URL="../AI/Histogram/VFH Speed Selection.vi"/>
+			</Item>
+			<Item Name="Navigation" Type="Folder">
+				<Item Name="Global" Type="Folder">
+					<Item Name="Global Loop.vi" Type="VI" URL="../AI/Navigation/Global/Global Loop.vi"/>
+				</Item>
+				<Item Name="Local" Type="Folder">
+					<Item Name="Angular Velocity Controler.vi" Type="VI" URL="../AI/Angular Velocity Controler.vi"/>
+					<Item Name="Local Loop.vi" Type="VI" URL="../AI/Navigation/Local/Local Loop.vi"/>
+					<Item Name="Vector Field Controler.vi" Type="VI" URL="../AI/Vector Field Controler.vi"/>
+				</Item>
+				<Item Name="Regional" Type="Folder">
+					<Item Name="Regional Loop.vi" Type="VI" URL="../AI/Navigation/Regional/Regional Loop.vi"/>
+				</Item>
 			</Item>
 			<Item Name="Occupancy Grid" Type="Folder">
 				<Item Name="Backing up cost.vi" Type="VI" URL="../AI/Occupancy Grid/Backing up cost.vi"/>
@@ -114,7 +130,7 @@
 			</Item>
 			<Item Name="GPS Loop.vi" Type="VI" URL="../GPS/GPS Loop.vi"/>
 			<Item Name="GPS Variables.lvlib" Type="Library" URL="../GPS/GPS Variables.lvlib"/>
-			<Item Name="Waypoints.csv" Type="Document" URL="../GPS/Waypoints.csv"/>
+			<Item Name="Waypoints.csv" Type="Document" URL="../AI/Navigation/Global/Waypoints.csv"/>
 		</Item>
 		<Item Name="IMU" Type="Folder">
 			<Item Name="Microstrain" Type="Folder">
@@ -226,21 +242,19 @@
 				<Item Name="LIDAR Position from Inertial Position.vi" Type="VI" URL="../Utilities/Robot Parameters/LIDAR Position from Inertial Position.vi"/>
 				<Item Name="Robot Parameters.vi" Type="VI" URL="../Utilities/Robot Parameters/Robot Parameters.vi"/>
 			</Item>
+			<Item Name="Close VI Server Application Control Event.vi" Type="VI" URL="../Utilities/Close VI Server Application Control Event.vi"/>
 			<Item Name="Close VI Server Application Control.vi" Type="VI" URL="../Utilities/Close VI Server Application Control.vi"/>
 			<Item Name="Error Refresh.vi" Type="VI" URL="../Utilities/Error Refresh.vi"/>
 			<Item Name="Error UI.vi" Type="VI" URL="../Utilities/Error UI.vi"/>
 			<Item Name="Open VI Server Application Control.vi" Type="VI" URL="../Utilities/Open VI Server Application Control.vi"/>
 			<Item Name="Start VI.vi" Type="VI" URL="../Utilities/Start VI.vi"/>
+			<Item Name="Stopt VI Event.vi" Type="VI" URL="../Utilities/Stopt VI Event.vi"/>
 			<Item Name="Stopt VI.vi" Type="VI" URL="../Utilities/Stopt VI.vi"/>
 			<Item Name="Utility.lvlib" Type="Library" URL="../Utilities/Utility.lvlib"/>
 			<Item Name="XY- Graph As Chart.vi" Type="VI" URL="../Utilities/XY- Graph As Chart.vi"/>
 		</Item>
 		<Item Name="About Robot.vi" Type="VI" URL="../About Robot.vi"/>
-		<Item Name="Bering Test.vi" Type="VI" URL="../AI/Waypoint AI/Bering Test.vi"/>
-		<Item Name="Close VI Server Application Control Event.vi" Type="VI" URL="../Utilities/Close VI Server Application Control Event.vi"/>
-		<Item Name="Occupancy Grid.ctl" Type="VI" URL="../AI/Occupancy Grid.ctl"/>
 		<Item Name="RHRT-IGVC-2013.vi" Type="VI" URL="../RHRT-IGVC-2013.vi"/>
-		<Item Name="Stopt VI Event.vi" Type="VI" URL="../Utilities/Stopt VI Event.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="DC Motor Controller.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/DC Motor Controller/HAIOL/DC Motor Controller.lvclass"/>
@@ -259,11 +273,8 @@
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Attitude Indicator.xctl" Type="XControl" URL="/&lt;vilib&gt;/robotics/Controls/Attitude Indicator/Attitude Indicator.xctl"/>
-				<Item Name="Autoscale Polar as Needed.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/Autoscale Polar as Needed.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Calc Increment.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Calc Increment.vi"/>
-				<Item Name="Calc Scale Specs.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Calc Scale Specs.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -292,12 +303,9 @@
 				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
 				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
 				<Item Name="Draw Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Point.vi"/>
-				<Item Name="Draw Polar Grids.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/Draw Polar Grids.vi"/>
 				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
-				<Item Name="Draw Scale.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Draw Scale.vi"/>
 				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
 				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="Edge New.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge New.ctl"/>
@@ -306,13 +314,10 @@
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrorDescriptions.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/ErrorDescriptions.vi"/>
-				<Item Name="errorList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/errorList.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="Escape XML.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Escape XML.vi"/>
 				<Item Name="EscapeChars.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/EscapeChars.vi"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
@@ -321,13 +326,11 @@
 				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
 				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Get Ready.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/Get Ready.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -361,7 +364,6 @@
 				<Item Name="IMAQ Read Image And Vision Info" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ Read Image And Vision Info"/>
 				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
-				<Item Name="Increment Filter.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Increment Filter.vi"/>
 				<Item Name="Initialize Joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Joystick.vi"/>
 				<Item Name="IVA Append VI Name to GUID.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Append VI Name to GUID.vi"/>
 				<Item Name="IVA Binary Inverse.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Binary Inverse.vi"/>
@@ -382,11 +384,8 @@
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVRGBAColorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRGBAColorTypeDef.ctl"/>
-				<Item Name="Map Setup.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Setup.vi"/>
-				<Item Name="Map Value to Pixel.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Value to Pixel.vi"/>
 				<Item Name="MathScriptTypes.lvlib" Type="Library" URL="/&lt;vilib&gt;/imath/engines/lvmath2/MathScriptCompiler/MathScriptTypes.lvlib"/>
 				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
-				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
 				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -434,18 +433,12 @@
 				<Item Name="NIMS_Complex Is Real Integer.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeSupport/NIMS_Complex Is Real Integer.vi"/>
 				<Item Name="NIMS_Get Dims.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeSupport/NIMS_Get Dims.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Num To Text.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Num To Text.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Overlay Line with Arrows.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Clamp.llb/Overlay Line with Arrows.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
-				<Item Name="PG angle labels.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/PG angle labels.vi"/>
-				<Item Name="PG angle lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/PG angle lines.vi"/>
-				<Item Name="PG circles.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/PG circles.vi"/>
-				<Item Name="PG scale.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/PG scale.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
-				<Item Name="Plot Polar Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/Plot Polar Data.vi"/>
 				<Item Name="Polar Plot with Point Options.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/Polar Plot with Point Options.vi"/>
 				<Item Name="Query Input Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Query Input Devices.vi"/>
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
@@ -479,7 +472,6 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
-				<Item Name="Validate Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Validate Rectangle.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
@@ -504,7 +496,6 @@
 			<Item Name="Display_StructField_Data.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Plug In/_Struct/display/Display_StructField_Data.vi"/>
 			<Item Name="error.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Functions/Error Handling/error.ctl"/>
 			<Item Name="Expand Obsticle Size.vi" Type="VI" URL="../AI/Occupancy Grid/Expand Obsticle Size.vi"/>
-			<Item Name="Find Relative Goal Location.vi" Type="VI" URL="../AI/Occupancy Grid/Find Relative Goal Location.vi"/>
 			<Item Name="GetRunTimeEnginePath.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/Utility/GetRunTimeEnginePath.vi"/>
 			<Item Name="hid.dll" Type="Document" URL="hid.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
