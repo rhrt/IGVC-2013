@@ -6,6 +6,16 @@
 	<Item Name="IMU Data" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="name" Type="Str">IMU Data</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**21)!!")!A!1!!!!5!!N!#A!%5G^M&lt;!!!#U!+!!61;82D;!!*1!I!!VFB&gt;Q!71&amp;!!!Q!!!!%!!AB1&lt;X.J&gt;'FP&lt;A!!"1!+!!!E1%!!!P``````````!!134X*J:7ZU982J&lt;WYA47&amp;U=GFY!!!&lt;1!I!&amp;6IN18BJ=S".97&gt;O:82J9S"';76M:!!&lt;1!I!&amp;6EN18BJ=S".97&gt;O:82J9S"';76M:!!&lt;1!I!&amp;6AN18BJ=S".97&gt;O:82J9S"';76M:!!=1&amp;!!!Q!'!!=!#!Z.97&gt;O:82J9S"';76M:!!!'5!+!".;,5&amp;Y;8-A17.D:7RF=G&amp;U;7^O!"F!#A!473V"?'FT)%&amp;D9W6M:8*B&gt;'FP&lt;A!:1!I!%VAN18BJ=S""9W.F&lt;'6S982J&lt;WY!'E"1!!-!#A!,!!Q-17.D:7RF=G&amp;U;7^O!!!:1!I!%VAN18BJ=S""&lt;G&gt;V&lt;'&amp;S)&amp;*B&gt;'5!'5!+!".:,5&amp;Y;8-A17ZH&gt;7RB=C"3982F!"F!#A!47CV"?'FT)%&amp;O:X6M98)A5G&amp;U:1!;1&amp;!!!Q!/!!]!%!R"&lt;G&gt;V&lt;'&amp;S)&amp;*B&gt;'5!!"B!1!!"`````Q!%#F&amp;V982F=GZJ&lt;WY!!"R!5!!'!!-!"1!*!!U!%1!3#%F.63"%982B!!!"!"-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="IMU Data Old" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>

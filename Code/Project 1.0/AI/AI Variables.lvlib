@@ -167,4 +167,5 @@
 	</Item>
 	<Item Name="Robot Model 1.ctl" Type="VI" URL="../Robot Model 1.ctl"/>
 	<Item Name="Robot State 1.ctl" Type="VI" URL="../Robot State 1.ctl"/>
+	<Item Name="Occupancy Grid.ctl" Type="VI" URL="../Occupancy Grid.ctl"/>
 </Library>
