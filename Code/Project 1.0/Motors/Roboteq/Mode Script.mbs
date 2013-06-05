@@ -1,0 +1,30 @@
+LowCount = 100
+HighCount = 200
+FlashCount = 0
+setcommand(_DSet,4)
+top:
+PulseAvg = getvalue(_PLSIN,4)
+if PulseAvg >= 1869 then
+setconfig(_CPRI, 1, 0)
+setconfig(_CPRI, 2, 1)
+FlashCount = 1
+setCommand(_DSet,4)
+elseif PulseAvg<=1170 then
+setconfig(_CPRI, 1, 1)
+setconfig(_CPRI, 2, 0)
+FlashCount = 0
+setcommand(_DSet,4)
+end if
+if FlashCount > 0 then
+if FlashCount >= HighCount then
+setcommand(_DSet,4)
+FlashCount = 1
+elseif FlashCount >= LowCount then
+FlashCount ++
+setcommand(_DRes,4)
+else
+FlashCount ++
+end if
+end if
+goto top
+
